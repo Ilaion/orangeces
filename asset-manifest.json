@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/orangeces/static/css/main.4220396c.css",
+    "main.js": "/orangeces/static/js/main.843b3e8b.js",
+    "static/css/154.31d6cfe0.chunk.css": "/orangeces/static/css/154.31d6cfe0.chunk.css",
+    "static/js/154.f085c540.chunk.js": "/orangeces/static/js/154.f085c540.chunk.js",
+    "static/js/787.7c7be2d3.chunk.js": "/orangeces/static/js/787.7c7be2d3.chunk.js",
+    "static/media/defaul_background.png": "/orangeces/static/media/defaul_background.a5e63fc94a4064f60b61.png",
+    "static/media/default_ava.png": "/orangeces/static/media/default_ava.cbfe379e192caef7ea23.png",
+    "static/media/default_post_ava_gif.gif": "/orangeces/static/media/default_post_ava_gif.0f045f4d0628d2c1199e.gif",
+    "static/media/defaulAvatar.jpg": "/orangeces/static/media/defaulAvatar.a8fe2cf4dd25fbb0dc4e.jpg",
+    "static/media/orange_icon.png": "/orangeces/static/media/orange_icon.3d3afb6e61ff215ae2a4.png",
+    "static/media/default_online_friend_image.png": "/orangeces/static/media/default_online_friend_image.72c445a77e3d1a429984.png",
+    "static/media/spinner.svg": "/orangeces/static/media/spinner.7f937069527c36c14f9172662cff9c7b.svg",
+    "index.html": "/orangeces/index.html",
+    "main.4220396c.css.map": "/orangeces/static/css/main.4220396c.css.map",
+    "main.843b3e8b.js.map": "/orangeces/static/js/main.843b3e8b.js.map",
+    "154.f085c540.chunk.js.map": "/orangeces/static/js/154.f085c540.chunk.js.map",
+    "787.7c7be2d3.chunk.js.map": "/orangeces/static/js/787.7c7be2d3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4220396c.css",
+    "static/js/main.843b3e8b.js"
+  ]
+}
