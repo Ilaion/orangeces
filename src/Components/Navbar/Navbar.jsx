@@ -34,7 +34,8 @@ const Navbar = (props) => {
                 </div>
                 <br/>
                 <br/>
-                <Friends friendsOnline={props.friendsOnline}/>
+                {props.isAuth &&
+                <Friends friendsOnline={props.friendsOnline}/>}
             </div>
         </nav>
     )
