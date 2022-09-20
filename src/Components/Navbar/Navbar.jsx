@@ -8,8 +8,8 @@ const Navbar = (props) => {
         <nav className={mod.navbar}>
             <div className={mod.items}>
                 <div className={mod.item}>
-                    <a href='/profile'
-                             className={navData => navData.isActive ? mod.activeLink : mod.item}>Profile</a>
+                    <Navlink href='/profile'
+                             className={navData => navData.isActive ? mod.activeLink : mod.item}>Profile</Navlink>
                 </div>
                 <div className={mod.item}>
                     <NavLink to='/dialogs/'
