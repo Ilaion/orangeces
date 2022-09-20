@@ -1,0 +1,30 @@
+.allPages{
+    margin: 1.2em 1em 1em 1.5em;
+}
+
+.arrow{
+    background-color: bisque;
+    margin: 0 0.5em 0 0.5em;
+    border: 1px solid aliceblue;
+    border-radius: 0.4em;
+}
+
+.allPages span:hover{
+    cursor: pointer;
+}
+
+.allPages span{
+    padding: 0 0.7em 0 0.7em;
+}
+
+.pageNumber {
+    padding: 0.05em;
+    border: 1px solid orange;
+    background-color: bisque;
+    border-radius: 0.4em;
+}
+
+.pageNumber.selectedPage {
+    font-weight: 600;
+    border: 2px solid chocolate;
+}

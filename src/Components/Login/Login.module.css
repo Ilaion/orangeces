@@ -1,0 +1,23 @@
+.loginAll {
+    margin: 2.5em 0 0 2em ;
+}
+
+.label {
+    padding: 1em;
+    font-weight: 500;
+    font-size: 1.7em;
+}
+
+.btn{
+    padding: 0.35em;
+    margin: 0.3em 0 0.8em 0;
+    border-radius: 0.5em;
+    background-color: bisque;
+    border: 2px solid lightsalmon;
+}
+
+.btn:hover{
+    cursor: pointer;
+    color: palevioletred;
+}
+

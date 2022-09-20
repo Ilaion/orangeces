@@ -1,0 +1,27 @@
+.navbar {
+    grid-area: Navbar;
+    background-color: #facb5a;
+    border-radius: 0.4em;
+}
+
+.items {
+    margin: 1em 1em 1em 1em;
+}
+
+.item a {
+    color: palevioletred;
+    font-size: 1.5em;
+    margin-top: 0.15em;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.item a:hover{
+    color: indianred;
+}
+
+.item a.activeLink {
+    color: indianred;
+    font-weight: 650;
+}
+

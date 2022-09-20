@@ -1,0 +1,19 @@
+.post {
+    color: palevioletred;
+}
+
+.post img {
+    width: 70px;
+    border-radius: 2em;
+}
+
+.like{
+    font-weight: 700;
+    color: indianred;
+    padding: 0.3em;
+    text-align: center;
+}
+
+.pf{
+    padding: 1em 0 1em 1em;
+}
