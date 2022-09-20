@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/orangeces/static/css/main.4220396c.css",
-    "main.js": "/orangeces/static/js/main.d7f02c69.js",
+    "main.js": "/orangeces/static/js/main.0881b717.js",
     "static/css/154.31d6cfe0.chunk.css": "/orangeces/static/css/154.31d6cfe0.chunk.css",
     "static/js/154.f085c540.chunk.js": "/orangeces/static/js/154.f085c540.chunk.js",
     "static/js/787.7c7be2d3.chunk.js": "/orangeces/static/js/787.7c7be2d3.chunk.js",
@@ -14,12 +14,12 @@
     "static/media/spinner.svg": "/orangeces/static/media/spinner.7f937069527c36c14f9172662cff9c7b.svg",
     "index.html": "/orangeces/index.html",
     "main.4220396c.css.map": "/orangeces/static/css/main.4220396c.css.map",
-    "main.d7f02c69.js.map": "/orangeces/static/js/main.d7f02c69.js.map",
+    "main.0881b717.js.map": "/orangeces/static/js/main.0881b717.js.map",
     "154.f085c540.chunk.js.map": "/orangeces/static/js/154.f085c540.chunk.js.map",
     "787.7c7be2d3.chunk.js.map": "/orangeces/static/js/787.7c7be2d3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4220396c.css",
-    "static/js/main.d7f02c69.js"
+    "static/js/main.0881b717.js"
   ]
 }
