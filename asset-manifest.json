@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/orangeces/static/css/main.4220396c.css",
-    "main.js": "/orangeces/static/js/main.c349c585.js",
+    "main.css": "/orangeces/static/css/main.9e0d29d8.css",
+    "main.js": "/orangeces/static/js/main.8ee70cec.js",
     "static/css/154.31d6cfe0.chunk.css": "/orangeces/static/css/154.31d6cfe0.chunk.css",
     "static/js/154.f085c540.chunk.js": "/orangeces/static/js/154.f085c540.chunk.js",
     "static/js/787.7c7be2d3.chunk.js": "/orangeces/static/js/787.7c7be2d3.chunk.js",
@@ -13,13 +13,13 @@
     "static/media/default_online_friend_image.png": "/orangeces/static/media/default_online_friend_image.72c445a77e3d1a429984.png",
     "static/media/spinner.svg": "/orangeces/static/media/spinner.7f937069527c36c14f9172662cff9c7b.svg",
     "index.html": "/orangeces/index.html",
-    "main.4220396c.css.map": "/orangeces/static/css/main.4220396c.css.map",
-    "main.c349c585.js.map": "/orangeces/static/js/main.c349c585.js.map",
+    "main.9e0d29d8.css.map": "/orangeces/static/css/main.9e0d29d8.css.map",
+    "main.8ee70cec.js.map": "/orangeces/static/js/main.8ee70cec.js.map",
     "154.f085c540.chunk.js.map": "/orangeces/static/js/154.f085c540.chunk.js.map",
     "787.7c7be2d3.chunk.js.map": "/orangeces/static/js/787.7c7be2d3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4220396c.css",
-    "static/js/main.c349c585.js"
+    "static/css/main.9e0d29d8.css",
+    "static/js/main.8ee70cec.js"
   ]
 }
