@@ -7,7 +7,7 @@ import ProfileStatusHooks from "./ProfileStatus/ProfileStatusHooks";
 const AvaAndDescription = (props) => {
     return (
         <div className={mod.avaAndDescription}>
-            <Avatar profileData={props.profileData}/>
+            <Avatar profileData={props.profileData} profileId={props.profileId} savePhoto={props.savePhoto}/>
             <ProfileStatusHooks status={props.status} updateUserStatus={props.updateUserStatus}
                                 profileId={props.profileId} me={props.me} myName={props.myName}
                                 fullName={props.fullName} profileData={props.profileData}/>

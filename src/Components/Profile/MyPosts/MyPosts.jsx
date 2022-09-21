@@ -15,7 +15,7 @@ const MyPosts = (props) => {
                          addPost={props.addPost}
                          updatePostText={props.updateText}
             />
-            {postElements}
+            {postElements.slice().reverse()}
         </div>
     )
 }

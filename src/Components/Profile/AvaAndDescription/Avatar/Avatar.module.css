@@ -2,3 +2,32 @@
     height: 13em;
     border-radius: 1.3em;
 }
+
+.btnDownload{
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+.btnDownload + label {
+    position: absolute;
+    margin: -45px 0px 10px 10px;
+    opacity: 70%;
+    font-size: 0.15em;
+    font-weight: 700;
+    color: white;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.btnDownload:focus + label{
+    outline: 1px dotted #000;
+    outline: -webkit-focus-ring-color auto 5px;
+}
+.btnDownload + label:hover {
+    background-color: mediumseagreen;
+    border-radius: 3em;
+}

@@ -16,7 +16,7 @@ const Profile = (props) => {
             <DefaultProfileBackground/>
             <AvaAndDescription profileData={props.profileData} status={props.status} updateUserStatus={props.updateUserStatus}
                                profileId={props.profileId} me={props.me} myName={props.myName}
-                               fullName={props.profileData.fullName}/>
+                               fullName={props.profileData.fullName} savePhoto={props.savePhoto}/>
             {props.profileId == props.me || props.profileId == undefined &&
             <MyPostsContainer />}
         </div>
