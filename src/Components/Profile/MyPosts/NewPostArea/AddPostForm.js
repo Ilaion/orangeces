@@ -10,7 +10,7 @@ const AddPostForm = (props) => {
     return(
         <form onSubmit={props.handleSubmit}>
             <div>
-                <Field component={Textarea}  validate={[required, msxLength90]} name={"newPostForm"}/>
+                <Field component={Textarea}  validate={[msxLength90]} name={"newPostForm"}/>
             </div>
             <div>
                 <button className={mod.butn}>Send</button>
