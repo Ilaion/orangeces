@@ -7,7 +7,6 @@ import Preloader from "../Preloader/Preloader";
 
 
 const Profile = (props) => {
-    debugger
     if (!props.profileData){
         return <Preloader/>
     }
