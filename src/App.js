@@ -1,6 +1,6 @@
 import React from "react";
 import './App.css';
-import {Route, Routes} from "react-router-dom";
+import { Route, Routes, Navigate} from "react-router-dom";
 import News from "./Components/News/News";
 import Settings from "./Components/Settings/Settings";
 import DialogsContainer from "./Components/Dialogs/DialogsContainer";
@@ -23,7 +23,7 @@ class App extends React.Component {
     }
 
     render() {
-        if (!this.props.initialized){
+        if (!this.props.initialized) {
             return <Preloader/>
         }
         return (
@@ -32,16 +32,17 @@ class App extends React.Component {
                 <NavbarContainer/>
                 <div className='profile'>
                     <React.Suspense fallback={<div>Loading....</div>}>
-                    <Routes>
-                        <Route path='/profile/:userId' element={<ProfileContainer/>}/>
-                        <Route path='/profile/*' element={<ProfileContainer/>}/>
-                        <Route path='/dialogs/*' element={<DialogsContainer/>}/>
-                        <Route path='/users/*' element={<UsersContainer/>}/>
-                        <Route path='/news' element={<News/>}/>
-                        <Route path='/music' element={<Music/>}/>
-                        <Route path='/settings' element={<Settings/>}/>
-                        <Route path='/login' element={<Login/>}/>
-                    </Routes>
+                        <Routes>
+                                <Route path="/" element={<Navigate to="/profile"/>}/>
+                                <Route path='/profile/:userId' element={<ProfileContainer/>}/>
+                                <Route path='/profile/*' element={<ProfileContainer/>}/>
+                                <Route path='/dialogs/*' element={<DialogsContainer/>}/>
+                                <Route path='/users/*' element={<UsersContainer/>}/>
+                                <Route path='/news' element={<News/>}/>
+                                <Route path='/music' element={<Music/>}/>
+                                <Route path='/settings' element={<Settings/>}/>
+                                <Route path='/login' element={<Login/>}/>
+                        </Routes>
                     </React.Suspense>
                 </div>
             </div>
