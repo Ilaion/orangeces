@@ -8,7 +8,7 @@ import {Navigate} from "react-router-dom";
 
 const Dialogs = (props) => {
 
-    const dialogElements = props.dialogs.map(d => <Dialog name={d.name} id={d.id}/>)
+    const dialogElements = props.dialogs.map(d => <Dialog key={d.id} name={d.name} id={d.id}/>)
 
     const messageElements = props.messages.map(m => <Message message={m.message}/>)
 
