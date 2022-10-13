@@ -11,7 +11,7 @@ import Login from "./Components/Login/Login";
 import {connect} from "react-redux";
 import ProfileContainer, {withRouting} from "./Components/Profile/ProfileContainer"
 import {compose} from "redux";
-import {initThunk} from "./redux/appReducer";
+import {initThunk} from "./redux/appReducer.ts";
 import Preloader from "./Components/Preloader/Preloader";
 
 

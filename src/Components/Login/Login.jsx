@@ -2,7 +2,7 @@ import React from "react";
 import {Field, reduxForm} from "redux-form";
 import {Inputarea} from "../common/Textarea";
 import {MaxLengthCreator, required} from "../../utils/validators";
-import {loginThunk} from "../../redux/authReducer";
+import {loginThunk} from "../../redux/authReducer.ts";
 import {connect} from "react-redux";
 import {Navigate} from "react-router-dom";
 import mod from "../common/Textarea.module.css"
